@@ -121,6 +121,7 @@ img{
 }
 a{
     text-decoration: none;
+    color:brown;
     text-align: justify;
 }
 aside {
@@ -187,6 +188,32 @@ footer{
     font-size: 15px;
     color:aliceblue;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.8;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
 
 
 @media only screen and (max-width: 767px){
@@ -314,7 +341,7 @@ footer{
         height:auto;
         display:block;
         align-items: center;
-        background-color: rgb(81, 217, 156);
+        
         font-size: 15px;
         color:aliceblue;
     }.fa {

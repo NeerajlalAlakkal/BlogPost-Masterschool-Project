@@ -327,6 +327,7 @@ aside {
 footer{
     list-style-type: none;
     width:100%;
+    overflow: hidden;
     height:auto;
     display:block;
     align-items: center;
@@ -337,6 +338,7 @@ footer{
     .fa {
         padding: 20px;
         font-size: 30px;
+        overflow: hidden;
         width: 50px;
         text-align: center;
         text-decoration: none;
